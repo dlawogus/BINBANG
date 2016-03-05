@@ -1,0 +1,41 @@
+<?php
+  session_start();
+  if( isset($_SESSION['user_id']) ) {
+    echo "<meta http-equiv='refresh' content='0;url=main.php'>";
+    exit;
+  }
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript"> jQuery.ajaxSetup({cache:false}); </script>
+
+<title>BINBANG 관리자페이지</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+</head>
+<body>
+<div class="container">
+	<h1 align="center">관리자페이지</h1>
+<form role="form" action="login_check.php" method="post">
+    <div class="form-group has-warning">
+      <label for="email">아이디:</label>
+      <input type="text" class="form-control" id="user_id" name="user_id" naplaceholder="아아디를 입력하세요" required>
+    </div>
+    <div class="form-group  has-warning">
+      <label for="pwd">비밀번호:</label>
+      <input type="password" class="form-control" id="user_pw" name="user_pw" placeholder="비밀번호를 입력하세요" required>
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox">아이디저장</label>
+    </div>
+    <button type="로그인" class="btn btn-default">로그인</button>
+  </form>        
+</div>
+</body>
+</html>
+

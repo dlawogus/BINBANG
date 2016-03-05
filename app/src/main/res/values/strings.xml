@@ -1,0 +1,286 @@
+<resources>
+    <string name="app_name">빈방</string>
+    <string name="phone_number">010-9822-3795</string>
+    <string-array name="pricetype">
+        <item>전세</item>
+        <item>월세</item>
+    </string-array>
+    <string-array name="type">
+        <item>원룸</item>
+        <item>미니투룸</item>
+        <item>투룸</item>
+        <item>쓰리룸</item>
+        <item>오피스텔</item>
+        <item>기타</item>
+    </string-array>
+    <string-array name="gu">
+        <item>동구</item>
+        <item>영도구</item>
+        <item>부산진구</item>
+        <item>동래구</item>
+        <item>서구</item>
+        <item>남구</item>
+        <item>북구</item>
+        <item>해운대구</item>
+        <item>금정구</item>
+        <item>강서구</item>
+        <item>연제구</item>
+        <item>수영구</item>
+        <item>사상구</item>
+        <item>기장군</item>
+        <item>중구</item>
+        <item>사하구</item>
+    </string-array>
+    <string-array name="dong1">
+        <item>초량1동</item>
+        <item>초량2동</item>
+        <item>초량3동</item>
+        <item>초량6동</item>
+        <item>수정1동</item>
+        <item>수정2동</item>
+        <item>수정4동</item>
+        <item>수정5동</item>
+        <item>좌천동</item>
+        <item>범일1동</item>
+        <item>범일2동</item>
+        <item>범일4동</item>
+        <item>범일5동</item>
+    </string-array>
+    <string-array name="dong2">
+        <item>남한동</item>
+        <item>영선1동</item>
+        <item>영선2동</item>
+        <item>신선동</item>
+        <item>봉래1동</item>
+        <item>봉래2동</item>
+        <item>청학1동</item>
+        <item>청학2동</item>
+        <item>동삼1동</item>
+        <item>동삼2동</item>
+        <item>동삼3동</item>
+    </string-array>
+    <string-array name="dong3">
+        <item>부전1동</item>
+        <item>부전2동</item>
+        <item>연지동</item>
+        <item>초읍동</item>
+        <item>양정1동</item>
+        <item>양정2동</item>
+        <item>전포1동</item>
+        <item>전포2동</item>
+        <item>부암1동</item>
+        <item>부암3동</item>
+        <item>당감1동</item>
+        <item>당감2동</item>
+        <item>당감4동</item>
+        <item>가야1동</item>
+        <item>가야2동</item>
+        <item>개금1동</item>
+        <item>개금2동</item>
+        <item>개금3동</item>
+        <item>범천1동</item>
+        <item>범천2동</item>
+        <item>범천4동</item>
+    </string-array>
+    <string-array name="dong4">
+        <item>수민동</item>
+        <item>복산동</item>
+        <item>명륜동</item>
+        <item>온천1동</item>
+        <item>온천2동</item>
+        <item>온천3동</item>
+        <item>사직1동</item>
+        <item>사직2동</item>
+        <item>사직3동</item>
+        <item>안락1동</item>
+        <item>안락2동</item>
+        <item>명장1동</item>
+        <item>명장2동</item>
+    </string-array>
+    <string-array name="dong5">
+        <item>동대신1동</item>
+        <item>동대신2동</item>
+        <item>동대신3동</item>
+        <item>서대신1동</item>
+        <item>서대신3동</item>
+        <item>서대신4동</item>
+        <item>부민동</item>
+        <item>초장동</item>
+        <item>충무동</item>
+        <item>남부민1동</item>
+        <item>남부민2동</item>
+        <item>암남동</item>
+    </string-array>
+    <string-array name="dong6">
+        <item>대연1동</item>
+        <item>대연3동</item>
+        <item>대연4동</item>
+        <item>대연5동</item>
+        <item>대연6동</item>
+        <item>용호1동</item>
+        <item>용호2동</item>
+        <item>용호3동</item>
+        <item>용호4동</item>
+        <item>용당동</item>
+        <item>감만1동</item>
+        <item>감만2동</item>
+        <item>우암동</item>
+        <item>문현1동</item>
+        <item>문현2동</item>
+        <item>문현3동</item>
+        <item>문현4동</item>
+    </string-array>
+    <string-array name="dong7">
+        <item>구포1동</item>
+        <item>구포2동</item>
+        <item>구포3동</item>
+        <item>금곡동</item>
+        <item>화명1동</item>
+        <item>화명2동</item>
+        <item>화명3동</item>
+        <item>덕천1동</item>
+        <item>덕천2동</item>
+        <item>덕천3동</item>
+        <item>만덕1동</item>
+        <item>만덕2동</item>
+        <item>만덕3동</item>
+    </string-array>
+    <string-array name="dong8">
+        <item>우1동</item>
+        <item>우2동</item>
+        <item>중1동</item>
+        <item>중2동</item>
+        <item>좌1동</item>
+        <item>좌2동</item>
+        <item>좌3동</item>
+        <item>좌4동</item>
+        <item>송정동</item>
+        <item>반여1동</item>
+        <item>반여2동</item>
+        <item>반여3동</item>
+        <item>반여4동</item>
+        <item>반송1동</item>
+        <item>반송2동</item>
+        <item>반송3동</item>
+        <item>재송1동</item>
+        <item>재송2동</item>
+    </string-array>
+    <string-array name="dong9">
+        <item>서1동</item>
+        <item>서2동</item>
+        <item>서3동</item>
+        <item>금사동</item>
+        <item>부곡1동</item>
+        <item>부곡2동</item>
+        <item>부곡3동</item>
+        <item>부곡4동</item>
+        <item>장전1동</item>
+        <item>장전2동</item>
+        <item>장전3동</item>
+        <item>선두구동</item>
+        <item>청룡노포동</item>
+        <item>남산동</item>
+        <item>구서1동</item>
+        <item>구서2동</item>
+        <item>금성동</item>
+    </string-array>
+    <string-array name="dong10">
+        <item>대저1동</item>
+        <item>대저2동</item>
+        <item>강동동</item>
+        <item>명지동</item>
+        <item>가락동</item>
+        <item>녹산동</item>
+        <item>가덕도동</item>
+    </string-array>
+    <string-array name="dong11">
+        <item>거제1동</item>
+        <item>거제2동</item>
+        <item>거제3동</item>
+        <item>거제4동</item>
+        <item>연산1동</item>
+        <item>연산2동</item>
+        <item>연산3동</item>
+        <item>연산4동</item>
+        <item>연산5동</item>
+        <item>연산6동</item>
+        <item>연산8동</item>
+        <item>연산9동</item>
+    </string-array>
+    <string-array name="dong12">
+        <item>남천1동</item>
+        <item>남천2동</item>
+        <item>수영동</item>
+        <item>망미1동</item>
+        <item>망미2동</item>
+        <item>광안1동</item>
+        <item>광안2동</item>
+        <item>광안3동</item>
+        <item>광안4동</item>
+        <item>민락동</item>
+    </string-array>
+    <string-array name="dong13">
+        <item>삼락동</item>
+        <item>모라1동</item>
+        <item>모라3동</item>
+        <item>덕포1동</item>
+        <item>덕포2동</item>
+        <item>괘법동</item>
+        <item>감전동</item>
+        <item>주례1동</item>
+        <item>주례2동</item>
+        <item>주례3동</item>
+        <item>학장동</item>
+        <item>엄궁동</item>
+    </string-array>
+    <string-array name="dong14">
+        <item>기장읍</item>
+        <item>장안읍</item>
+        <item>일광면</item>
+        <item>정관면</item>
+        <item>철마면</item>
+    </string-array>
+    <string-array name="dong15">
+        <item>중앙동</item>
+        <item>동광동</item>
+        <item>대청동</item>
+        <item>보수동</item>
+        <item>부평동</item>
+        <item>광복동</item>
+        <item>남포동</item>
+        <item>영주1동</item>
+        <item>영주2동</item>
+    </string-array>
+    <string-array name="dong16">
+        <item>괴정1동</item>
+        <item>괴정2동</item>
+        <item>괴정3동</item>
+        <item>괴정4동</item>
+        <item>당리동</item>
+        <item>하단1동</item>
+        <item>하단2동</item>
+        <item>신평1동</item>
+        <item>신평2동</item>
+        <item>장림1동</item>
+        <item>장림2동</item>
+        <item>다대1동</item>
+        <item>다대2동</item>
+        <item>구평동</item>
+        <item>감천1동</item>
+        <item>감천2동</item>
+    </string-array>
+    <string name="title_activity_bang_view">BangViewActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main_search">MainSearchActivity</string>
+    <string name="title_activity_calculater">Calculater</string>
+    <string name="title_activity_service_req">ServiceReq</string>
+    <string name="title_activity_join">JoinActivity</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_load_view">LoadViewActivity</string>
+    <string name="title_activity_find__id_">Find_Id_Activity</string>
+    <string name="title_activity_find__pw_">Find_Pw_Activity</string>
+    <string name="title_activity_join2">Join2Activity</string>
+    <string name="title_activity_join_ceo">JoinCeoActivity</string>
+</resources>

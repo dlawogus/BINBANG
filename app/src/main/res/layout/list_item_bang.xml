@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:id="@+id/content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="40"
+            android:background="@drawable/border_img">
+            <ImageView
+                android:id="@+id/img_bang"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:scaleType="fitXY"
+                android:visibility="gone"
+                android:src="@mipmap/list_default"
+                android:padding="2dp"
+                android:background="#E7E7E7"/>
+            <ImageView
+                android:id="@+id/img_bang_empty"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/list_default"
+                android:padding="2dp"
+                android:background="#E7E7E7"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="90">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp">
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@mipmap/view_point"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="41"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/text_gunmul"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:text="*********"
+                    android:singleLine="true"
+                    android:textSize="15sp"
+                    android:textColor="#000"/>
+                <TextView
+                    android:id="@+id/text_juso"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="3dp"
+                    android:text="***********"
+                    android:singleLine="true"
+                    android:textSize="13sp"
+                    android:textColor="#000"/>
+                <TextView
+                    android:id="@+id/text_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="4dp"
+                    android:text="******"
+                    android:textStyle="bold"
+                    android:singleLine="true"
+                    android:textSize="20sp"
+                    android:textColor="#000"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="19"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/text_empty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="**"
+                    android:singleLine="true"
+                    android:textSize="13sp"
+                    android:textColor="#000"/>
+                <TextView
+                    android:id="@+id/text_pricetype"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="*****"
+                    android:singleLine="true"
+                    android:textSize="13sp"
+                    android:textColor="#000"/>
+                <TextView
+                    android:id="@+id/text_manageprice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:text="(*****)"
+                    android:singleLine="true"
+                    android:textSize="10sp"
+                    android:textColor="#000"/>
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="20">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="6dp">
+                    <ImageView
+                        android:id="@+id/img_bangtype"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@mipmap/bang_ex"/>
+                    <TextView
+                        android:id="@+id/text_bangtype"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="2dp"
+                        android:text="(*****)"
+                        android:singleLine="true"
+                        android:textSize="8sp"
+                        android:textColor="#000"/>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/call_point"
+                    android:layout_width="20dp"
+                    android:layout_height="10dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="fitXY"
+                    android:visibility="invisible"
+                    android:src="@mipmap/arrow_up"/>
+
+                <ImageButton
+                    android:id="@+id/btn_img_call_open"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_above="@id/call_point"
+                    android:background="@drawable/call_btn"/>
+
+            </RelativeLayout>
+            <!--
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="80"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp">
+
+                    <TextView
+                        android:id="@+id/text_gunmul"
+                        android:layout_width="0dp"
+                        android:layout_weight="70"
+                        android:layout_height="wrap_content"
+                        android:text="*********"
+                        android:singleLine="true"
+                        android:textSize="18sp"
+                        android:textColor="#000"/>
+
+                    <TextView
+                        android:id="@+id/text_empty"
+                        android:layout_width="0dp"
+                        android:layout_weight="30"
+                        android:layout_height="wrap_content"
+                        android:text="**"
+                        android:singleLine="true"
+                        android:textSize="18sp"
+                        android:textColor="#000"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp">
+
+                    <TextView
+                        android:id="@+id/text_juso"
+                        android:layout_width="0dp"
+                        android:layout_weight="65"
+                        android:layout_height="wrap_content"
+                        android:text="***********"
+                        android:singleLine="true"
+                        android:textSize="18sp"
+                        android:textColor="#000"/>
+
+                    <TextView
+                        android:id="@+id/text_pricetype"
+                        android:layout_width="0dp"
+                        android:layout_weight="35"
+                        android:layout_height="wrap_content"
+                        android:text="*****"
+                        android:singleLine="true"
+                        android:textSize="18sp"
+                        android:textColor="#000"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp">
+
+                    <TextView
+                        android:id="@+id/text_price"
+                        android:layout_width="0dp"
+                        android:layout_weight="50"
+                        android:layout_height="wrap_content"
+                        android:text="******"
+                        android:singleLine="true"
+                        android:textSize="22sp"
+                        android:textColor="#000"/>
+
+                    <TextView
+                        android:id="@+id/text_manageprice"
+                        android:layout_width="0dp"
+                        android:layout_weight="50"
+                        android:layout_height="wrap_content"
+                        android:text="(*****)"
+                        android:singleLine="true"
+                        android:textSize="18sp"
+                        android:textColor="#000"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+            -->
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:background="#3E3E3E">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="70dp"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/btn_img_call"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/list_call_btn"
+                android:background="@android:color/transparent"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="70dp"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/btn_img_loc"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/list_point_btn"
+                android:background="@android:color/transparent"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="70dp"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/btn_img_favorite"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/list_favorite_off"
+                android:background="@android:color/transparent"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

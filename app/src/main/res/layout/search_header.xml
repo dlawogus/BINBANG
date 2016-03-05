@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/lay_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp">
+
+        <ImageButton
+            android:id="@+id/order_gunmul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/od_gunmul_off"
+            android:background="@android:color/transparent"/>
+
+        <ImageButton
+            android:id="@+id/order_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/od_price_off"
+            android:background="@android:color/transparent"/>
+
+        <ImageButton
+            android:id="@+id/order_juso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/od_juso_off"
+            android:background="@android:color/transparent"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
