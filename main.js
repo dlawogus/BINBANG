@@ -1,5 +1,3 @@
-gogogog
-
 "use strict";
 
 /*global detector, location */
